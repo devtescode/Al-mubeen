@@ -1,4 +1,9 @@
-import { CheckCircle2, Truck, DollarSign, MessageSquare } from 'lucide-react';
+import { CheckCircle2, Truck, MessageSquare } from 'lucide-react';
+
+// Custom Naira Icon component
+const NairaIcon = () => (
+  <b className="text-2xl">₦</b> // text-2xl makes it bigger
+);
 
 const features = [
   {
@@ -7,7 +12,7 @@ const features = [
     description: 'We source only the finest fabrics to ensure comfort and durability in every piece.',
   },
   {
-    icon: DollarSign,
+    icon: NairaIcon, // Replaced DollarSign with NairaIcon
     title: 'Affordable Prices',
     description: 'Premium quality doesn\'t have to break the bank. We offer competitive pricing for everyone.',
   },
@@ -22,6 +27,9 @@ const features = [
     description: 'Got questions? Our team responds quickly via WhatsApp to assist you.',
   },
 ];
+
+// export default features;
+// 
 
 const Features = () => {
   return (

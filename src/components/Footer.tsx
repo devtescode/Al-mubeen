@@ -1,11 +1,39 @@
-import { Instagram, Facebook, MessageCircle, Users, Heart } from 'lucide-react';
+import { Instagram, Facebook, MessageCircle, Users } from "lucide-react";
+import { FaTiktok } from "react-icons/fa"; // TikTok icon
 
 const socialLinks = [
-  // { name: 'Instagram', icon: Instagram, href: 'https://instagram.com', color: 'hover:bg-gradient-to-br hover:from-pink-500 hover:to-orange-400' },
-  // { name: 'Facebook', icon: Facebook, href: 'https://facebook.com', color: 'hover:bg-blue-600' },
-  { name: 'WhatsApp', icon: MessageCircle, href: 'https://wa.me/+2348164363363', color: 'hover:bg-[#25D366]' },
-  { name: 'WhatsApp Group', icon: Users, href: 'https://wa.me/message/C7NMNEH6IM4EB1', color: 'hover:bg-[#25D366]' },
+  {
+    name: 'Instagram',
+    icon: Instagram,
+    href: 'https://www.instagram.com/almubeencollection?igsh=MWk0aDE5Zmx5aHAy&utm_source=qr',
+    color: 'hover:bg-gradient-to-br hover:from-pink-500 hover:to-orange-400'
+  },
+  {
+    name: 'Facebook',
+    icon: Facebook,
+    href: 'https://www.facebook.com/holori.harlarbeey',
+    color: 'hover:bg-blue-600'
+  },
+  {
+    name: 'Tiktok',
+    icon: FaTiktok,
+    href: 'https://vt.tiktok.com/ZSPtPVsnJ/',
+    color: 'hover:bg-black hover:text-white' // TikTok color scheme
+  },
+  {
+    name: 'WhatsApp',
+    icon: MessageCircle,
+    href: 'https://wa.me/+2348164363363',
+    color: 'hover:bg-[#25D366]'
+  },
+  {
+    name: 'WhatsApp Group',
+    icon: Users,
+    href: 'https://chat.whatsapp.com/EgWUZ4CruCA6wEnoADbhRX',
+    color: 'hover:bg-[#25D366]'
+  },
 ];
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
