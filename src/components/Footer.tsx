@@ -18,7 +18,7 @@ const socialLinks = [
     name: 'Tiktok',
     icon: FaTiktok,
     href: 'https://vt.tiktok.com/ZSPtPVsnJ/',
-    color: 'hover:bg-black hover:text-white' // TikTok color scheme
+    color: 'hover:bg-black hover:text-white'
   },
   {
     name: 'WhatsApp',
