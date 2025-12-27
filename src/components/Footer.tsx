@@ -17,7 +17,7 @@ const socialLinks = [
   {
     name: 'Tiktok',
     icon: FaTiktok,
-    href: 'https://vt.tiktok.com/ZSPtPVsnJ/',
+    href: 'www.tiktok.com/@almubeenalmubeen',
     color: 'hover:bg-black hover:text-white'
   },
   {
